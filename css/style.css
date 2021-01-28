@@ -88,6 +88,18 @@ body {
     letter-spacing:2.30625px;
     text-align: center;
     padding-bottom: 60px;
+    position: relative;
+}
+.section_title:before{
+    content: "";
+    position: absolute;
+    background-color: #00A4E5;
+    height: 2px;
+    width: 50px;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 .story{
     padding: 57px 0;
@@ -165,6 +177,18 @@ body {
     text-transform: uppercase;
     font-size: 18px;
     line-height: 25px;
+    position: relative;
+}
+.service_title:before{
+    position: absolute;
+    content: "";
+    background-color: #00A4E5;
+    width: 50px;
+    height: 2px;
+    left: 15px;
+    top: 34px;
+
+
 
 }
 .service_info{
@@ -252,7 +276,6 @@ body {
     margin-right: 34px;
 }
 .footer_company{
-    width: 23%;
     margin: 0 71px 0 0 ;
 
 
@@ -321,5 +344,38 @@ body {
     text-align: center;
 
 }
+.menu-btn{
 
+    width: 30px;
+    height: 40px;
+    display: none;
+    align-items: center;
 
+}
+.menu-btn span{
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    transition: .6s;
+}
+.menu-btn span:before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    top: -8px;
+    transition: .6s;
+
+}
+.menu-btn span:after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    top: 8px;
+    transition: .6s;
+}
