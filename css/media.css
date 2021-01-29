@@ -7,6 +7,7 @@
    }
     .about_info_item{
         margin-bottom: 30px;
+        margin-top: 30px;
     }
 }
 @media  ( max-width: 768px){
@@ -135,6 +136,7 @@
     .footer_contact{
         width: 100%;
     }
+
 
 
 }
